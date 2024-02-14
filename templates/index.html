@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>La cam fils de pute </title>
+    <title>Security Camera Portal</title>
 </head>
 <body>
+    <!--
+        You should obfuscate this code to prevent unauthorized access to your camera.
+    -->
     <script type="text/javascript">
-        var _0x2a7f98=_0x232a;function _0x57f8(){var _0x3e4b41=['1223490ztFSNm','864162BSNJzL','873BqdaLb','281029tTloDQ','body','595355WHihsd','41672sHQMtA','452cWHSnU','24jkbJDP','228529LaaUZS','WeAreTheAdmin','LE\x20MOT\x20DE\x20PASSE\x20MON\x20PD\x20!','7647xOXTvo'];_0x57f8=function(){return _0x3e4b41;};return _0x57f8();}function _0x232a(_0x2a442e,_0xf05402){var _0x57f8fa=_0x57f8();return _0x232a=function(_0x232aa8,_0x5f0558){_0x232aa8=_0x232aa8-0x13f;var _0x35d433=_0x57f8fa[_0x232aa8];return _0x35d433;},_0x232a(_0x2a442e,_0xf05402);}(function(_0x237ca3,_0x345888){var _0x588c9a=_0x232a,_0x322e38=_0x237ca3();while(!![]){try{var _0x2715e0=parseInt(_0x588c9a(0x144))/0x1+parseInt(_0x588c9a(0x149))/0x2+-parseInt(_0x588c9a(0x147))/0x3*(parseInt(_0x588c9a(0x142))/0x4)+parseInt(_0x588c9a(0x140))/0x5*(parseInt(_0x588c9a(0x143))/0x6)+parseInt(_0x588c9a(0x14b))/0x7+parseInt(_0x588c9a(0x141))/0x8*(-parseInt(_0x588c9a(0x14a))/0x9)+-parseInt(_0x588c9a(0x148))/0xa;if(_0x2715e0===_0x345888)break;else _0x322e38['push'](_0x322e38['shift']());}catch(_0x33141f){_0x322e38['push'](_0x322e38['shift']());}}}(_0x57f8,0x3fd06));var password=prompt(_0x2a7f98(0x146),'');password!=_0x2a7f98(0x145)&&(document[_0x2a7f98(0x13f)]['innerHTML']='Mot\x20de\x20passe\x20non\x20valide,\x20tu\x20te\x20prend\x20pour\x20qui\x20petit\x20saligot\x20de\x20merde');
-    </script>
+        var password = prompt("Password required !", '');
+        if (password != "admin") {
+          document.body.innerHTML = "Invalid password.";
+        }   </script>
     <img src="{{ url_for('video_feed') }}">
 </body>
 </html>

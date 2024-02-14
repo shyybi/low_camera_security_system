@@ -1,0 +1,1 @@
+In this folder, the script will automatically add a folder with the date and time to put the security camera screenshot
